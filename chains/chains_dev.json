@@ -394,31 +394,6 @@
         "addressPrefix": 7
     },
     {
-        "chainId": "0bd72c1c305172e1275278aaeb3f161e02eccb7a819e63f62d47bd53a28189f8",
-        "name": "Subsocial",
-        "assets": [
-            {
-                "assetId": "sub"
-            }
-        ],
-        "nodes": [
-            {
-                "url": "wss://subsocial.api.onfinality.io/public-ws",
-                "name": "OnFinality node"
-            },
-            {
-                "url": "wss://rpc.subsocial.network",
-                "name": "DappForce node"
-            },
-            {
-                "url": "wss://pub.elara.patract.io/subsocial",
-                "name": "Patract node"
-            }
-        ],
-        "icon": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/icons/chains/white/subsocial_new.svg",
-        "addressPrefix": 28
-    },
-    {
         "chainId": "f7a99d3cb92853d00d5275c971c132c074636256583fee53b3bbe60d7b8769ba",
         "name": "Kulupu",
         "assets": [
