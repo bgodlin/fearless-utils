@@ -14,7 +14,19 @@
             "crowdloans": {
                 "type": "github",
                 "url": "https://raw.githubusercontent.com/soramitsu/fearless-utils/master/crowdloan/polkadot.json"
-            }
+            },
+            "explorers": [
+                {
+                    "type": "subscan",
+                    "types": ["extrinsic", "account"],
+                    "url": "https://polkadot.subscan.io/{type}/{value}"
+                },
+                {
+                    "type": "polkascan",
+                    "types": ["extrinsic", "account", "event"],
+                    "url": "https://polkascan.io/polkadot/{type}/{value}"
+                }
+            ]
         },
         "assets": [
             {
